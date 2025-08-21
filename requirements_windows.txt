@@ -1,0 +1,20 @@
+# Windows Renk Seçici Gereksinimleri
+# Bu dosya Windows'ta çalışmak için gerekli paketleri içerir
+
+# GUI Framework - Windows'ta PyQt5 mükemmel çalışır
+PyQt5>=5.15.0
+
+# Ekran yakalama ve mouse kontrolü
+pyautogui>=0.9.54
+
+# Görüntü işleme
+Pillow>=10.0.0
+
+# Cross-platform uyumluluk
+pynput>=1.7.6
+
+# Pano işlemleri
+pyperclip>=1.8.0
+
+# Not: Windows'ta bu paketler sorunsuz kurulur ve çalışır
+# macOS'ta izin sorunları olabilir ama Windows'ta yok
